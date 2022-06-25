@@ -1,0 +1,28 @@
+.page {
+	/* padding-top: 80px; */
+	font-family: "Roboto", sans-serif;
+	color: var(--primary-text-color);
+	background-color: var(--primare-bg-color);
+}
+
+.section {
+	padding: var(--section-set-gap) 0;
+}
+
+.section__title {
+	margin: 0 0 50px;
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.17;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
+
+
+.text {
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}

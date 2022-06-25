@@ -1,0 +1,33 @@
+.footer {
+	background-color: var(--hero-bg-color);
+	padding: 60px 0;
+}
+
+.footer-nav {
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+.footer-nav__item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.footer-nav__address {
+	color: var(--primare-bg-color);
+	transition: color var(--time-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}
+
+.footer-nav__contact {
+	color: rgba(255, 255, 255, 0.6);
+	transition: color var(--time-duration) var(--timing-function);
+	&:hover,
+	&:focus {
+		color: var(--accent-color);
+	}
+}

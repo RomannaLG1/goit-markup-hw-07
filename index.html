@@ -22,14 +22,15 @@
 			referrerpolicy="no-referrer"
 		/>
 		<!-- Custom styles -->
-		<link rel="stylesheet" href="./css/styles.css" />
+		<!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+		<link rel="stylesheet" href="./css/main.min.css" />
 	</head>
 
 	<body class="page">
 		<!-- Верхняя линия -->
 		<header class="page-header">
 			<div class="container main-nav">
-				<nav class="main-nav">
+				<nav class="main-nav__wrap">
 					<a href="./index.html" class="logo logo__up link" lang="en">
 						Web
 						<span class="logo__header">Studio</span>
@@ -69,7 +70,7 @@
 		<!-- Main content -->
 		<main>
 			<!-- Hero -->
-			<section class="section hero">
+			<section class="hero">
 				<div class="container">
 					<h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
 					<button data-modal-open type="button" class="index-btn hero__buttom">Заказать услугу</button>
@@ -320,7 +321,7 @@
 
 			<!-- Our Clients -->
 
-			<section class="clients">
+			<section class="section clients">
 				<div class="container">
 					<h2 class="section__title">Постоянные клиенты</h2>
 					<ul class="client__list">
@@ -372,9 +373,9 @@
 		</main>
 
 		<!-- Footer -->
-		<footer class="footer section">
+		<footer class="footer">
 			<div class="container footer__flex">
-				<div class="f-nav">
+				<div class="footer__wrap">
 					<a href="./index.html" class="logo link logo__down" lang="en">
 						Web
 						<span class="logo__footer">Studio</span>
@@ -397,7 +398,7 @@
 
 				<!-- Footer social-link -->
 				<div class="footer-social">
-					<h3 class="social__title">Присоединяйтесь</h3>
+					<h3 class="footer-social__title">Присоединяйтесь</h3>
 					<ul class="footer-social__list list">
 						<li class="footer-social__item">
 							<a href="" class="footer-social__link link">
@@ -506,7 +507,7 @@
 		</div>
 
 		<!-- Fixed button -->
-		<div class="upp container">
+		<div class="upp">
 			<a href="./index.html" class="upp__button animate__heartBeat" data-visible="true">
 				<svg class="upp__icon" width="25" height="30">
 					<use href="./image/sprite-opt.svg#icon-arrow-up"></use>
