@@ -1,6 +1,4 @@
-// .work {
-// 	padding: 0 0 var(--section-set-gap);
-// }
+
 .work__list {
 	display: flex;
 }
@@ -14,9 +12,7 @@
 
 .work__text {
 	position: absolute;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+@include centeredFlex();
 	bottom: 0;
 	width: 100%;
 	height: 70px;

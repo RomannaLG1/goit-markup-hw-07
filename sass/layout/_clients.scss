@@ -2,23 +2,17 @@
 
 .client__list {
 	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centeredFlex();
 }
 .client__item {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centeredFlex();
     &:not(:last-child) {
         margin-right: var(--card-set-gap);
     }
 }
 
 .client__link {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centeredFlex();
 
 	background-color: transparent;
 	outline: transparent;

@@ -2,19 +2,12 @@
 //UTIL
 @import "./utils/variables";
 @import "./utils/visually-hidden";
+@import "./utils/mixins";
 
 //BASE
 @import "./base/reset-style";
 @import "./base/common";
 @import "./base/container";
-
-//SECTION
-@import "./section/hero";
-@import "./section/feature";
-@import "./section/work";
-@import "./section/team";
-@import "./section/clients";
-@import "./section/portfolio-card";
 
 //COMPONENTS
 @import "./components/page-header";
@@ -28,6 +21,16 @@
 @import "./components/modal-window";
 @import "./components/scroll-bar";
 @import "./components/upp-button";
+
+//LAYOUT
+@import "./layout/hero";
+@import "./layout/feature";
+@import "./layout/work";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/portfolio-card";
+
+
 
 
 

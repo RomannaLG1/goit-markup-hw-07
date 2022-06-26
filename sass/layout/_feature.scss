@@ -26,13 +26,12 @@
 }
 
 .feature__icon-bg {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	@include centeredFlex();
+	
 	margin-bottom: var(--card-set-gap);
 	background-color: var(--secondary-bg-color);
 	border-radius: 4px;
 	height: 120px;
-	justify-content: center;
+	
 	/* outline: 1px solid tomato; */
 }
