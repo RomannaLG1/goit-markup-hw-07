@@ -28,7 +28,7 @@
 
 	<body class="page">
 		<!-- Верхняя линия -->
-		<header class="page-header">
+		<header class="page-header" id="header">
 			<div class="container main-nav">
 				<nav class="main-nav__wrap">
 					<a href="./index.html" class="logo logo__up link" lang="en">
@@ -491,13 +491,14 @@
 
 					<label class="form__label form__label--textarea">
 						Комментарий
-						<textarea name="comment" rows="5" class="modal__comment form__input" placeholder="Введите текст"></textarea>
+						<textarea name="comment" rows="5" class="form__input--comment form__input" placeholder="Введите текст"></textarea>
 					</label>
+					
 
 					<label class="form__label--contract">
 						<input class="checkbox" type="checkbox" name="checkbox" value="contract" />
 						<span class="contract__icon"></span>
-						Соглашаюсь с рассылкой и принимаю
+						Соглашаюсь с рассылкой и принимаю&nbsp
 						<a href="" class="modal__link">Условия договора</a>
 					</label>
 
@@ -516,5 +517,6 @@
 		</div>
 
 		<script src="./js/modal.js"></script>
+		<script src="./js/scroll.js"></script>
 	</body>
 </html>

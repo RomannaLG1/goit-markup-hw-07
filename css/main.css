@@ -484,7 +484,6 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-left: auto;
-  /* align-items: baseline; */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -498,6 +497,7 @@ img {
 }
 
 .subscribe__title {
+  display: block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -704,9 +704,8 @@ img {
   margin-bottom: 20px;
 }
 
-.modal__comment {
+.form__input--comment {
   padding: 12px 16px;
-  margin-bottom: 20px;
   width: 100%;
   height: 120px;
   overflow: auto;
@@ -714,31 +713,31 @@ img {
   border-radius: 4px;
   resize: none;
 }
-.modal__comment::-webkit-input-placeholder {
+.form__input--comment::-webkit-input-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal__comment::-moz-placeholder {
+.form__input--comment::-moz-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal__comment:-ms-input-placeholder {
+.form__input--comment:-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal__comment::-ms-input-placeholder {
+.form__input--comment::-ms-input-placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.modal__comment::placeholder {
+.form__input--comment::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
